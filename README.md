@@ -3,6 +3,7 @@
 Index of PHA skills published in open GitHub repositories.
 
 This repository does not contain the skills themselves. It only contains the list and URLs needed to find, choose, and install them.
+These skills are additional to the ones that come installed with PHA and are kept in the archives skill directories.
 
 ## Available skills
 
