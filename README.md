@@ -1,34 +1,40 @@
 # PHA Skill Index
 
-Índice de skills PHA publicadas em repositórios GitHub abertos.
+Index of PHA skills published in open GitHub repositories.
 
-Este repositório não contém as skills. Contém apenas a lista e os URLs.
+This repository does not contain the skills themselves. It only contains the list and URLs needed to find, choose, and install them.
 
-## Skills disponíveis
+## Available skills
 
 ### digitarq-get
-Descrição: descarrega imagens de páginas em alta resolução do Digitarq.
-Repositório: https://github.com/joaquimrcarvalho/digitarq-get
+Description: Downloads high-resolution page images from Digitarq / the Portuguese National Archive (Torre do Tombo).
+Repository: https://github.com/joaquimrcarvalho/digitarq-get
 Skill: `.`
-Licença: MIT
+License: MIT
 
 ### bnp-digital-download
-Descrição: descarrega imagens de páginas em alta resolução da Biblioteca Nacional Digital.
-Repositório: https://github.com/joaquimrcarvalho/get-bnd-purl
+
+Description: Downloads high-resolution page images from the Portuguese National Digital Library (purl.pt / permalinkbnd.bnportugal.gov.pt).
+Repository: https://github.com/joaquimrcarvalho/get-bnd-purl
 Skill: `skills/bnp-digital-download`
-Licença: MIT
+License: MIT
 
-## Para agentes
+## For agents
 
-Lê este README e devolve a lista de skills com nome, descrição, URL, caminho e licença.
-Pergunta sempre qual delas o utilizador quer instalar.
-Não inventes skills, URLs ou caminhos que não constem do índice.
+Read this README and return the list of skills with name, description, URL, skill path, and license.
+Always ask which one the user wants to install/use.
+Do not invent skills, URLs, or paths that are not in this index.
 
-## Instalação
-Clona o repositório indicado e usa a pasta definida em Skill.
-Exemplo: git clone --depth 1 <repository_url>
+If the user writes something like:
+> Show me which additional skills are available to use at this address: <repository URL>
 
-## Atualização
-Publica a nova skill num repositório GitHub aberto.
-Acrescenta-a a este README.
-Faz commit e push.
+then return the skill list above and ask the user to choose.
+
+## Installation
+Clone the repository and use the folder defined in Skill.
+Example: git clone --depth 1 <repository_url>
+
+## Updating
+Publish the new skill in an open GitHub repository.
+Add it to this README.
+Commit and push.

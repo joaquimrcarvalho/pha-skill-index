@@ -1,15 +1,17 @@
 ---
 name: pha-skill-index
-description: Índice de skills PHA em repositórios GitHub abertos. Usa quando o utilizador pedir uma lista de skills adicionais a partir do URL deste repositório.
+description: Index of PHA skills published in open GitHub repositories. Use when the user asks for a list of additional skills from this repository URL.
 license: MIT
 ---
 
 # PHA Skill Index
 
-Este repositório é apenas um índice. Não contém as skills.
+This repository is only an index. It does not contain the skills themselves.
 
-## Comportamento
-Lê o README.md. Devolve a lista com nome, descrição, URL, Skill e licença.
-Pergunta sempre qual delas o utilizador quer instalar.
-Não inventes entradas e não instales nada antes da escolha.
+## Behavior
+Read README.md. Return the list of skills with name, description, URL, skill path, and license.
+Always ask which one the user wants to install/use.
+Do not invent entries and do not install anything before the user chooses.
 
+## Source
+README.md
